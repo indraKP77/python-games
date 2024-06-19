@@ -64,8 +64,10 @@ def main():
             break
         if flag1 == 2:
             print("Player 2 has won by default")
+            break
         if flag2 == 2:
             print("Player 1 has won by default")
+            break
         print(f"P1 position is {pos1}")
         print(f"P2 position is {pos2}")
         roll = input("Enter t to roll again")
