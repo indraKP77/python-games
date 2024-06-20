@@ -8,7 +8,7 @@ def dice_roller1(pos):
     dice = dice1+dice2
     pos = pos+dice
     if pos%10 == 0 and 1<pos<100:
-        print("Oops! You have encountered a snake.")
+        print("Oops! P1 have encountered a snake.")
         if pos ==10:
             pos = pos-9
         else:
@@ -18,10 +18,10 @@ def dice_roller1(pos):
             print("P1 has won!")
             flag = 1
         if pos > 100:
-            print("Invalid position, try again")
+            print("Invalid position P1, try again")
             pos = pos-dice
         if pos == 99:
-            print("You cant win now, better luck next time")
+            print("P1 cant win now, better luck next time")
             flag = 2
     return flag,pos
 
@@ -33,7 +33,7 @@ def dice_roller2(pos):
     dice = dice1+dice2
     pos = pos+dice
     if pos%10 == 0 and 1<pos<100:
-        print("Oops! You have encountered a snake.")
+        print("Oops! P1 have encountered a snake.")
         if pos ==10:
             pos = pos-9
         else:
@@ -43,10 +43,10 @@ def dice_roller2(pos):
             print("P2 has won!")
             flag = 1
         if pos > 100:
-            print("Invalid position, try again")
+            print("Invalid position P2, try again")
             pos = pos-dice
         if pos == 99:
-            print("You cant win now, better luck next time")
+            print("P2 cant win now, better luck next time")
             flag = 2
     return flag,pos
 
