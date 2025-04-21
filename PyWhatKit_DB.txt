@@ -1,0 +1,15 @@
+Date: 21/4/2025
+Time: 21:55
+Phone Number: +917013487768
+Message: Hello,this is an automated message sent using python
+--------------------
+Date: 21/4/2025
+Time: 21:58
+Phone Number: +917013487768
+Message: Hello,this is an automated message sent using python
+--------------------
+Date: 21/4/2025
+Time: 22:4
+Phone Number: +919912988988
+Message: Hello,this is an automated message sent using python
+--------------------
